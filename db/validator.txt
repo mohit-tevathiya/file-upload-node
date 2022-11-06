@@ -1,0 +1,16 @@
+{
+    $jsonSchema: {
+      required: [
+        'name'
+      ],
+      properties: {
+        createdAt: {
+          bsonType: 'date'
+        },
+        name: {
+          bsonType: 'string',
+          uniqueItems: true
+        }
+      }
+    }
+  }
